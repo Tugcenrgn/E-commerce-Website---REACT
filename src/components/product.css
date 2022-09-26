@@ -1,0 +1,71 @@
+.product{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 10%;
+  background-color: rgba(180, 180, 180, 0.332),
+}
+
+.product-info{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  text-decoration: none;
+
+}
+
+
+
+.product-info-text{
+  color: #064635;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.button-cart {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-cart:hover {
+  background-color: #F4EEA9;
+  box-shadow: #F0BB62 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-cart:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 300px) {
+  .button-cart {
+    font-size: 1rem;
+    padding: .75rem 2rem;
+  }
+}
+
+strong{
+  font-size: 2rem;
+  color:#064635;
+}

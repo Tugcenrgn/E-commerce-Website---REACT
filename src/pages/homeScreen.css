@@ -1,0 +1,18 @@
+.homeScreen-container{
+    text-align: center;
+    color: #F0BB62;
+    
+}
+
+.homeScreen-title{
+    text-shadow: #474747 3px 3px 2px;
+
+}
+.product-image{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 300px;
+    object-fit: cover;
+
+}
+

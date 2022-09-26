@@ -1,0 +1,17 @@
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.rating-text{
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 149, 0);
+}
+
+.star{
+    color:rgb(255, 149, 0);
+}

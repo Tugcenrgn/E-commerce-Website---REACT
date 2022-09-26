@@ -1,0 +1,113 @@
+.signinScreen-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.signin-container{
+    max-width: 600px;
+    justify-content:center;
+    align-items:center;
+    text-shadow: #474747 3px 3px 2px;
+
+  appearance: none;
+  background: linear-gradient( #519259,#356a3b,#004308);
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #062505 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 5rem 2.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+}
+
+label{
+    color: white;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    color: white;
+    width: 300px;
+}
+    
+.create-account{
+    text-decoration: underline;
+    color: white;
+    font-size: .8rem;
+}
+
+input{
+    background-color: transparent;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 1rem;
+}
+
+input:focus{
+    background-color:transparent;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #064635;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.submit-btn:hover {
+    background-color: #F4EEA9;
+    box-shadow: #F0BB62 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .submit-btn:active {
+    transform: scale(1.025);
+  }
